@@ -1,44 +1,58 @@
 [
     {
-      "title": "TODO LIST",
-      "content": "I created this webpage using REACTJS and NODE JS...",
+      "name": "MovieList",
+      "description": "I created this webpage using REACTJS and IMDB API. It contains all the movies and series with their total information like cast, rating, release date, etc.",
+      "image": "/images/movie.png",
+      "webLink": "https://movie-list-five-orpin.vercel.app/",
+      "githubLink": "https://github.com/HarikowshikMolugu/MovieList"
+    },
+    {
+      "name": "Library Management System",
+      "description": "It is a group project in which we use AngularJS for Frontend and Spring Boot for Backend. The system helps in managing library resources effectively.",
+      "image": "/images/library.jpeg",
+      "webLink": "https://github.com/HarikowshikMolugu/Library_Management_System",
+      "githubLink": "https://github.com/HarikowshikMolugu/Library_Management_System"
+    },
+    {
+      "name": "TODO LIST",
+      "description": "I created this webpage using REACTJS and NODE JS. It features User Authentication with Login and Register functionalities, allowing users to manage their to-do lists.",
       "image": "/images/todolist.png",
-      "viewLink": "https://hk-todolist.netlify.app/",
+      "webLink": "https://hk-todolist.netlify.app/",
       "githubLink": "https://github.com/HarikowshikMolugu/todoList"
     },
     {
-      "title": "ITYUKTA 2K23",
-      "content": "I created this website using REACTJS and CSS on the occasion...",
+      "name": "ITYUKTA 2K23",
+      "description": "I created this website using REACTJS and CSS for the ITYUKTA technical fest. Students can register for events organized during the fest.",
       "image": "/images/mainlogo.png",
-      "viewLink": "https://ityukta2k23-fest-lolh.vercel.app/",
+      "webLink": "https://ityukta2k23-fest-lolh.vercel.app/",
       "githubLink": "https://github.com/HarikowshikMolugu/ityukta2k23-fest-"
     },
     {
-      "title": "PORTFOLIO",
-      "content": "I created this website using REACTJS AND CSS regarding...",
+      "name": "PORTFOLIO",
+      "description": "I created this website using REACTJS and CSS for showcasing my details and projects. It serves as my personal portfolio.",
       "image": "/images/pro2.jpeg",
-      "viewLink": "/",
+      "webLink": "/",
       "githubLink": "https://github.com/HarikowshikMolugu/portfolio"
     },
     {
-      "title": "HK FOUNDATION",
-      "content": "I created this website using HTML AND CSS regarding the cause...",
+      "name": "HK FOUNDATION",
+      "description": "I created this website using HTML and CSS for a donation cause. It utilizes a payment gateway through Razorpay for handling donations.",
       "image": "/images/pro3.png",
-      "viewLink": "https://www.linkedin.com/posts/hari-kowshik-molugu-56042923b_task3-gripjuly2022-gripjuly2022-activity-6955454748271493120-MnRe?utm_source=share&utm_medium=member_android",
+      "webLink": "https://www.linkedin.com/posts/hari-kowshik-molugu-56042923b_task3-gripjuly2022-gripjuly2022-activity-6955454748271493120-MnRe?utm_source=share&utm_medium=member_android",
       "githubLink": "https://github.com/HarikowshikMolugu/Paymentgateway"
     },
     {
-      "title": "VIRTUAL PIANO",
-      "content": "I created this website using HTML AND CSS regarding the virtual piano...",
+      "name": "VIRTUAL PIANO",
+      "description": "I created this website using HTML and CSS to provide a virtual piano experience with musical keys.",
       "image": "/images/pro4.png",
-      "viewLink": "https://087679.netlify.app/",
+      "webLink": "https://087679.netlify.app/",
       "githubLink": "https://github.com/HarikowshikMolugu/simple-piano"
     },
     {
-      "title": "EMAIL VERIFICATION",
-      "content": "I created this website using REACTJS,CSS and EMAILJS regarding the purpose...",
+      "name": "EMAIL VERIFICATION",
+      "description": "I created this website using REACTJS, CSS, and EMAILJS for checking emails without backend. It helps in email verification.",
       "image": "/images/pro5.png",
-      "viewLink": "https://lucky-quokka-359d0c.netlify.app/",
+      "webLink": "https://lucky-quokka-359d0c.netlify.app/",
       "githubLink": "https://github.com/HarikowshikMolugu/emailverification"
     }
   ]

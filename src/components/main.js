@@ -1,5 +1,6 @@
 import React from "react";
 import "./main";
+import projectsData from "./projects.json";
 import resume from "./HARI's Resume.pdf";
 function main(){
     return(
@@ -35,118 +36,23 @@ function main(){
         </div>
       </div>
       <div className="pro">
-        <p id="pro-head" >MY PROJECTS</p><br></br>
-        <div className="line1">
-            <div id="pro1">
-               <div id="pro-image">
-               <img id="pic2" src="/images/movie.png"></img>
-               </div>
-               <div id="pro-content">
-                 <p  id="pro-content1" align="center">MovieList</p>
-                 <p id="pro-content2">I created this webpage using REACTJS and IMDB API, it contains all the movies and series with their total information like caste ,rating,release date etc</p>
-                 
-               </div>
-               <a id="weblink" href="https://movie-list-five-orpin.vercel.app/">View Project</a><br></br>
-               <a id="weblink" href="https://github.com/HarikowshikMolugu/MovieList">Github Repositry</a>
-               
+        <p id="pro-head">MY PROJECTS</p><br></br>
+        <div className="project-container">
+          {projectsData.map((project, index) => (
+            <div className="project" key={index}>
+              <div className="project-image">
+                <img src={project.image} alt={project.name} />
+              </div>
+              <div className="project-content">
+                <p className="project-title" align="center">{project.name}</p>
+                <p className="project-description">{project.description}</p>
+              </div>
+              <div className="project-links">
+                <a className="weblink" href={project.webLink}>View Project</a><br />
+                <a className="weblink" href={project.githubLink}>Github Repository</a>
+              </div>
             </div>
-            <div id="pro2">
-            <div id="pro-image">
-               <img id="pic2" src="/images/library.jpeg"></img>
-               </div>
-               <div id="pro-content">
-                 <p  id="pro-content1" align="center">Library Management System</p>
-                 <p id="pro-content2">It is a group project in which we use Angular js for  Frontend and Spring Boot for Backend</p>
-                 
-               </div>
-               <a id="weblink" href="https://github.com/HarikowshikMolugu/Library_Management_System">View Project</a><br></br>
-               <a id="weblink" href="https://github.com/HarikowshikMolugu/Library_Management_System">Github Repositry</a>
-              
-            
-            </div>
-            <div id="pro3">
-            <div id="pro-image">
-               <img id="pic2" src="/images/todolist.png"></img>
-               </div>
-               <div id="pro-content">
-                 <p  id="pro-content1" align="center">TODO LIST</p>
-                 <p id="pro-content2">I created this webpage using REACTJS and NODE JS, it contains the User Authentication with Login and Register so that the user can add their todo's and those will be saved in the database so that user can update them at any time. </p>
-                 
-               </div>
-               <a id="weblink" href="https://hk-todolist.netlify.app/">View Project</a><br></br>
-               <a id="weblink" href="https://github.com/HarikowshikMolugu/todoList">Github Repositry</a>
-            
-            </div>
-            
-        </div>
-        <div className="line1">
-            <div id="pro1">
-            <div id="pro-image">
-               <img id="pic2" src="/images/mainlogo.png"></img>
-               </div>
-               <div id="pro-content">
-                 <p  id="pro-content1" align="center">ITYUKTA 2K23</p>
-                 <p id="pro-content2">I created this website using REACTJS and CSS on the occasion of technical fest happend in JNTU-GV.Using this website students can register for the events organised by ITYUKTA </p>
-                 
-               </div>
-               <a id="weblink" href="https://ityukta2k23-fest-lolh.vercel.app/">View Project</a><br></br>
-               <a id="weblink" href="https://github.com/HarikowshikMolugu/ityukta2k23-fest-">Github Repositry</a>
-               
-            </div>
-            <div id="pro2">
-            <div id="pro-image">
-               <img id="pic2" src="/images/pro2.jpeg"></img>
-               </div>
-               <div id="pro-content">
-                 <p  id="pro-content1" align="center">PORTFOLIO</p>
-                 <p id="pro-content2">I created this website using REACTJS AND CSS regarding the PORTFOLIO which consists of  my details and projects I have done.</p>
-               </div>
-               <a id="weblink" href="/">View Project</a><br></br>
-               <a id="weblink" href="https://github.com/HarikowshikMolugu/portfolio">Github Repositry</a>
-              
-            
-            </div>
-            <div id="pro3">
-            <div id="pro-image">
-               <img id="pic2" src="/images/pro3.png"></img>
-               </div>
-               <div id="pro-content">
-                 <p  id="pro-content1" align="center">HK FOUNDATION</p>
-                 <p id="pro-content2">I created this website using HTML AND CSS regarding the cause of donation based on payment gateway using razorpay.</p>
-               </div>
-               <a id="weblink" href="https://www.linkedin.com/posts/hari-kowshik-molugu-56042923b_task3-gripjuly2022-gripjuly2022-activity-6955454748271493120-MnRe?utm_source=share&utm_medium=member_android">View Project</a><br></br>
-               <a id="weblink" href="https://github.com/HarikowshikMolugu/Paymentgateway">Github Repositry</a>
-            
-            </div>
-            
-        </div>
-        <div className="line2">
-            <div id="pro4">
-            <div id="pro-image">
-               <img id="pic2" src="/images/pro4.png"></img>
-               </div>
-               <div id="pro-content">
-                 <p  id="pro-content1" align="center">VIRTUAL PIANO</p>
-                 <p id="pro-content2">I created this website using HTML AND CSS regarding the virtual piano with musical keys.</p>
-               </div>
-               <a id="weblink" href="https://087679.netlify.app/">View Project</a><br></br>
-               <a id="weblink" href="https://github.com/HarikowshikMolugu/simple-piano">Github Repositry</a>
-            
-            </div>
-            <div id="pro5">
-            
-            <div id="pro-image">
-               <img id="pic2" src="/images/pro5.png"></img>
-               </div>
-               <div id="pro-content">
-                 <p  id="pro-content1" align="center">EMAIL VERIFICATION</p>
-                 <p id="pro-content2">I created this website using REACTJS,CSS and EMAILJS regarding the purpose of checking the mails without backend.</p>
-               </div>
-               <a id="weblink" href="https://lucky-quokka-359d0c.netlify.app/">View Project</a><br></br>
-               <a id="weblink" href="https://github.com/HarikowshikMolugu/emailverification">Github Repositry</a>
-            
-            
-            
+          ))}
         </div>
       </div>
       <div className="sk">
@@ -171,7 +77,8 @@ function main(){
         <a id="res-btn" href="/images/HARI's Resume.pdf" download>Download Resume</a>
       </div>
     </div>
-    </div>
+    
+    
     )
 }
 
