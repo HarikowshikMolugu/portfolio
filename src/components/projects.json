@@ -1,0 +1,45 @@
+[
+    {
+      "title": "TODO LIST",
+      "content": "I created this webpage using REACTJS and NODE JS...",
+      "image": "/images/todolist.png",
+      "viewLink": "https://hk-todolist.netlify.app/",
+      "githubLink": "https://github.com/HarikowshikMolugu/todoList"
+    },
+    {
+      "title": "ITYUKTA 2K23",
+      "content": "I created this website using REACTJS and CSS on the occasion...",
+      "image": "/images/mainlogo.png",
+      "viewLink": "https://ityukta2k23-fest-lolh.vercel.app/",
+      "githubLink": "https://github.com/HarikowshikMolugu/ityukta2k23-fest-"
+    },
+    {
+      "title": "PORTFOLIO",
+      "content": "I created this website using REACTJS AND CSS regarding...",
+      "image": "/images/pro2.jpeg",
+      "viewLink": "/",
+      "githubLink": "https://github.com/HarikowshikMolugu/portfolio"
+    },
+    {
+      "title": "HK FOUNDATION",
+      "content": "I created this website using HTML AND CSS regarding the cause...",
+      "image": "/images/pro3.png",
+      "viewLink": "https://www.linkedin.com/posts/hari-kowshik-molugu-56042923b_task3-gripjuly2022-gripjuly2022-activity-6955454748271493120-MnRe?utm_source=share&utm_medium=member_android",
+      "githubLink": "https://github.com/HarikowshikMolugu/Paymentgateway"
+    },
+    {
+      "title": "VIRTUAL PIANO",
+      "content": "I created this website using HTML AND CSS regarding the virtual piano...",
+      "image": "/images/pro4.png",
+      "viewLink": "https://087679.netlify.app/",
+      "githubLink": "https://github.com/HarikowshikMolugu/simple-piano"
+    },
+    {
+      "title": "EMAIL VERIFICATION",
+      "content": "I created this website using REACTJS,CSS and EMAILJS regarding the purpose...",
+      "image": "/images/pro5.png",
+      "viewLink": "https://lucky-quokka-359d0c.netlify.app/",
+      "githubLink": "https://github.com/HarikowshikMolugu/emailverification"
+    }
+  ]
+  

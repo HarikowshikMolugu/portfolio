@@ -15,7 +15,7 @@ function main(){
             <p id="wo-line1">Hi Welcome to</p>
          
             <p id="wo-line3">M.HARI KOWSHIK's PORTFOLIO</p>
-            <p id="wo-line4" >I am a Web Developer</p>
+            <p id="wo-line4" >I am a Full Stack Developer</p>
         </div>
       </div>
       <div className="about">
@@ -39,6 +39,33 @@ function main(){
         <div className="line1">
             <div id="pro1">
                <div id="pro-image">
+               <img id="pic2" src="/images/movie.png"></img>
+               </div>
+               <div id="pro-content">
+                 <p  id="pro-content1" align="center">MovieList</p>
+                 <p id="pro-content2">I created this webpage using REACTJS and IMDB API, it contains all the movies and series with their total information like caste ,rating,release date etc</p>
+                 
+               </div>
+               <a id="weblink" href="https://movie-list-five-orpin.vercel.app/">View Project</a><br></br>
+               <a id="weblink" href="https://github.com/HarikowshikMolugu/MovieList">Github Repositry</a>
+               
+            </div>
+            <div id="pro2">
+            <div id="pro-image">
+               <img id="pic2" src="/images/library.jpeg"></img>
+               </div>
+               <div id="pro-content">
+                 <p  id="pro-content1" align="center">Library Management System</p>
+                 <p id="pro-content2">It is a group project in which we use Angular js for  Frontend and Spring Boot for Backend</p>
+                 
+               </div>
+               <a id="weblink" href="https://github.com/HarikowshikMolugu/Library_Management_System">View Project</a><br></br>
+               <a id="weblink" href="https://github.com/HarikowshikMolugu/Library_Management_System">Github Repositry</a>
+              
+            
+            </div>
+            <div id="pro3">
+            <div id="pro-image">
                <img id="pic2" src="/images/todolist.png"></img>
                </div>
                <div id="pro-content">
@@ -48,9 +75,12 @@ function main(){
                </div>
                <a id="weblink" href="https://hk-todolist.netlify.app/">View Project</a><br></br>
                <a id="weblink" href="https://github.com/HarikowshikMolugu/todoList">Github Repositry</a>
-               
+            
             </div>
-            <div id="pro2">
+            
+        </div>
+        <div className="line1">
+            <div id="pro1">
             <div id="pro-image">
                <img id="pic2" src="/images/mainlogo.png"></img>
                </div>
@@ -61,10 +91,9 @@ function main(){
                </div>
                <a id="weblink" href="https://ityukta2k23-fest-lolh.vercel.app/">View Project</a><br></br>
                <a id="weblink" href="https://github.com/HarikowshikMolugu/ityukta2k23-fest-">Github Repositry</a>
-              
-            
+               
             </div>
-            <div id="pro3">
+            <div id="pro2">
             <div id="pro-image">
                <img id="pic2" src="/images/pro2.jpeg"></img>
                </div>
@@ -74,12 +103,10 @@ function main(){
                </div>
                <a id="weblink" href="/">View Project</a><br></br>
                <a id="weblink" href="https://github.com/HarikowshikMolugu/portfolio">Github Repositry</a>
+              
             
             </div>
-            
-        </div>
-        <div className="line2">
-            <div id="pro4">
+            <div id="pro3">
             <div id="pro-image">
                <img id="pic2" src="/images/pro3.png"></img>
                </div>
@@ -91,7 +118,10 @@ function main(){
                <a id="weblink" href="https://github.com/HarikowshikMolugu/Paymentgateway">Github Repositry</a>
             
             </div>
-            <div id="pro5">
+            
+        </div>
+        <div className="line2">
+            <div id="pro4">
             <div id="pro-image">
                <img id="pic2" src="/images/pro4.png"></img>
                </div>
@@ -103,7 +133,8 @@ function main(){
                <a id="weblink" href="https://github.com/HarikowshikMolugu/simple-piano">Github Repositry</a>
             
             </div>
-            <div id="pro6">
+            <div id="pro5">
+            
             <div id="pro-image">
                <img id="pic2" src="/images/pro5.png"></img>
                </div>
@@ -113,8 +144,9 @@ function main(){
                </div>
                <a id="weblink" href="https://lucky-quokka-359d0c.netlify.app/">View Project</a><br></br>
                <a id="weblink" href="https://github.com/HarikowshikMolugu/emailverification">Github Repositry</a>
-
-            </div>
+            
+            
+            
         </div>
       </div>
       <div className="sk">
@@ -130,6 +162,7 @@ function main(){
                 <img id="sk-img" src="/images/python.png"></img>
                 <img id="sk-img" src="/images/github.png"></img>
                 <img id="sk-img" src="/images/java.png"></img>
+                <img id="sk-img" src="/images/spring.png"></img>
                 
             </fieldset>
       </div>
@@ -137,6 +170,7 @@ function main(){
         
         <a id="res-btn" href="/images/HARI's Resume.pdf" download>Download Resume</a>
       </div>
+    </div>
     </div>
     )
 }
