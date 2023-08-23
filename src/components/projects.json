@@ -1,0 +1,66 @@
+[
+    {
+      "name": "InfiniTalk",
+      "description": "This is a Chat Application(WhatsApp Clone) created using React js and Node js and you can chat with another user and your chats are purely encrypted.",
+      "image": "/images/infinitalk.png",
+      "webLink": "https://chat-application-blond.vercel.app/"
+      
+
+    },
+    {
+      "name": "MovieList",
+      "description": "I created this webpage using REACTJS and IMDB API. It contains all the movies and series with their total information like cast, rating, release date, etc.",
+      "image": "/images/movie.png",
+      "webLink": "https://movie-list-five-orpin.vercel.app/",
+      "githubLink": "https://github.com/HarikowshikMolugu/MovieList"
+    },
+    {
+      "name": "Library Management System",
+      "description": "It is a group project in which we use AngularJS for Frontend and Spring Boot for Backend. The system helps in managing library resources effectively.",
+      "image": "/images/library.jpeg",
+      "githubLink": "https://github.com/HarikowshikMolugu/Library_Management_System"
+    },
+    {
+      "name": "TODO LIST",
+      "description": "I created this webpage using REACTJS and NODE JS. It features User Authentication with Login and Register functionalities, allowing users to manage their to-do lists.",
+      "image": "/images/todolist.png",
+      "webLink": "https://hk-todolist.netlify.app/",
+      "githubLink": "https://github.com/HarikowshikMolugu/todoList"
+    },
+    {
+      "name": "ITYUKTA 2K23",
+      "description": "I created this website using REACTJS and CSS for the ITYUKTA technical fest. Students can register for events organized during the fest.",
+      "image": "/images/mainlogo.png",
+      "webLink": "https://ityukta2k23-fest-lolh.vercel.app/",
+      "githubLink": "https://github.com/HarikowshikMolugu/ityukta2k23-fest-"
+    },
+    {
+      "name": "PORTFOLIO",
+      "description": "I created this website using REACTJS and CSS for showcasing my details and projects. It serves as my personal portfolio.",
+      "image": "/images/pro2.jpeg",
+      "webLink": "/",
+      "githubLink": "https://github.com/HarikowshikMolugu/portfolio"
+    },
+    {
+      "name": "HK FOUNDATION",
+      "description": "I created this website using HTML and CSS for a donation cause. It utilizes a payment gateway through Razorpay for handling donations.",
+      "image": "/images/pro3.png",
+      "webLink": "https://www.linkedin.com/posts/hari-kowshik-molugu-56042923b_task3-gripjuly2022-gripjuly2022-activity-6955454748271493120-MnRe?utm_source=share&utm_medium=member_android",
+      "githubLink": "https://github.com/HarikowshikMolugu/Paymentgateway"
+    },
+    {
+      "name": "VIRTUAL PIANO",
+      "description": "I created this website using HTML and CSS to provide a virtual piano experience with musical keys.",
+      "image": "/images/pro4.png",
+      "webLink": "https://087679.netlify.app/",
+      "githubLink": "https://github.com/HarikowshikMolugu/simple-piano"
+    },
+    {
+      "name": "EMAIL VERIFICATION",
+      "description": "I created this website using REACTJS, CSS, and EMAILJS for checking emails without backend. It helps in email verification.",
+      "image": "/images/pro5.png",
+      "webLink": "https://lucky-quokka-359d0c.netlify.app/",
+      "githubLink": "https://github.com/HarikowshikMolugu/emailverification"
+    }
+  ]
+  
