@@ -1,5 +1,13 @@
 [
     {
+      "name": "InfiniTalk",
+      "description": "This is a Chat Application(WhatsApp Clone) created using React js and Node js and you can chat with another user and your chats are purely encrypted.",
+      "image": "/images/infinitalk.png",
+      "webLink": "https://chat-application-blond.vercel.app/"
+      
+
+    },
+    {
       "name": "MovieList",
       "description": "I created this webpage using REACTJS and IMDB API. It contains all the movies and series with their total information like cast, rating, release date, etc.",
       "image": "/images/movie.png",
@@ -10,7 +18,6 @@
       "name": "Library Management System",
       "description": "It is a group project in which we use AngularJS for Frontend and Spring Boot for Backend. The system helps in managing library resources effectively.",
       "image": "/images/library.jpeg",
-      "webLink": "https://github.com/HarikowshikMolugu/Library_Management_System",
       "githubLink": "https://github.com/HarikowshikMolugu/Library_Management_System"
     },
     {

@@ -1,7 +1,7 @@
 import React from "react";
 import "./main";
 import projectsData from "./projects.json";
-import resume from "./HARI's Resume.pdf";
+
 function main(){
     return(
         <div className="App">
@@ -48,8 +48,17 @@ function main(){
                 <p className="project-description">{project.description}</p>
               </div>
               <div className="project-links">
+                {project.webLink&&(
+                  <>
                 <a className="weblink" href={project.webLink}>View Project</a><br />
+                </>
+                )}
+                
+                {project.githubLink&&(
+                  <>
                 <a className="weblink" href={project.githubLink}>Github Repository</a>
+                </>
+                )}
               </div>
             </div>
           ))}
