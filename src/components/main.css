@@ -464,7 +464,9 @@ a .social-icon {
         padding: 0;}
     .intro{width: 96%;margin-left: 2%;margin-right: 2%;flex-direction: column;}
     #wo{width: 100%;margin-left: 0;padding-top: 20px;}
-    
+    #wo-line3{
+        font-size: 25px;
+    }
     #pic {
         width: 100%;
         
