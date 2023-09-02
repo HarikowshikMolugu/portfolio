@@ -5,7 +5,7 @@ import 'animate.css';
 
 function main(){
     return(
-        <div className="App">
+        <div className="App" >
       <div className='intro'>
         
       <div id='pic'>
