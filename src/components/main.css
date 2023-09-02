@@ -89,6 +89,18 @@ a .social-icon {
     width: 100%;
     padding-bottom: 50px;
 }
+@keyframes wipe-in-up {
+    from {
+      clip-path: inset(100% 0 0 0);
+    }
+    to {
+      clip-path: inset(0 0 0 0);
+    }
+  }
+  
+  [transition-style="in:wipe:up"] {
+    animation: 2.5s cubic-bezier(.25, 1, .30, 1) wipe-in-up both;
+  }
 .intro{
   
     width: 80%;
@@ -179,9 +191,10 @@ a .social-icon {
   .shadow {
     width: 100%; /* Increase the width to extend the border effect */
     height: 100%; /* Increase the height to extend the border effect */
-    background-image: conic-gradient(gold  20deg, transparent  180deg); /* Adjust the conic gradient */
+    background-image: conic-gradient(gold  20deg, transparent  260deg); /* Adjust the conic gradient */
     animation: rotateShadow 3s linear infinite;
     transform-origin: center;
+
     z-index: 1; /* Ensure the shadow is below the image */
   }
   
