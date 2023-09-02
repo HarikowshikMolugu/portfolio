@@ -6,7 +6,8 @@ import Navbar from "./components/navbar";
 import { Route, Routes} from "react-router-dom";
 function App() {
   return (
-    <div style={{backgroundColor:'#000328'}} transition-style="in:wipe:up">
+    <div style={{backgroundColor:'#000328'}}>
+    <div  transition-style="in:wipe:up">
        
     <Navbar/>
       <Routes>
@@ -18,6 +19,7 @@ function App() {
         <Route path='*' element={<Pagenotfound />} />
 
       </Routes>
+      </div>
       </div>
   );
 }
