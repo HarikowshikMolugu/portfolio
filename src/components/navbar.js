@@ -37,7 +37,7 @@ function Navbar() {
         <a href="https://github.com/HarikowshikMolugu">
           <img className="social-icon" src="/images/github.png" />
         </a>
-        <a href="https://www.linkedin.com/posts/hari-kowshik-molugu-56042923b_task3-gripjuly2022-gripjuly2022-activity-6955454748271493120-MnRe?utm_source=share&utm_medium=member_android">
+        <a href="https://www.linkedin.com/in/hari-kowshik-molugu-56042923b">
           <img className="social-icon" src="/images/linkedin.png" />
         </a>
        
