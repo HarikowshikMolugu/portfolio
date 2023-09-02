@@ -8,13 +8,22 @@ function main(){
         <div className="App">
       <div className='intro'>
         
-        <div id='pic'>
-          <div id="pic-box">
-          <img id="pic1" src="/images/logo.jpg"></img>
-         
-          </div>
-          
-        </div>
+      <div id='pic'>
+  <div id="pic-box">
+    <div id="pic1-container">
+      <img id="pic1" src="/images/logo.jpg" alt="Logo Image"></img>
+    </div>
+    <div className="shadow-mask">
+      <div className="shadow"></div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
         <div id='wo'>
             <p id="wo-line1">Hi Welcome to</p>
          
