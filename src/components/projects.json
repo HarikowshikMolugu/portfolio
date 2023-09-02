@@ -1,7 +1,7 @@
 [
     {
       "name": "InfiniTalk",
-      "description": "This is a Chat Application(WhatsApp Clone) created using React js and Node js and you can chat with another user and your chats are purely encrypted.",
+      "description": "This is a Chat Application(WhatsApp Clone) created using React js and Node js and you can chat with another user and your chats are purely encrypted.Present available in Desktop mode only",
       "image": "/images/infinitalk.png",
       "webLink": "https://chat-application-blond.vercel.app/"
       

@@ -8,20 +8,30 @@ import "./main.css"
 
 
 function Navbar() {
+  
   const navRef = useRef();
 
   const showNavbar = () => {
     navRef.current.classList.toggle("responsive_nav");
   };
 
+  const header = document.getElementById('header');
+
+window.addEventListener('scroll', () => {
+  if (window.scrollY > 0) {
+    header.classList.add('header-shadow');
+  } else {
+    header.classList.remove('header-shadow');
+  }
+});
+
+
   return (
-    <header className="Nav">
+    <header className="Nav" id="header">
        <p><b>MY PORTFOLIO</b></p>
       <nav ref={navRef}>
         
-      <a href="mailto:harikowshik.molugu@gmail.com">
-          <b style={{color:"yellow"}}>Contact me</b>
-        </a>
+      
         
                   
        
@@ -30,6 +40,9 @@ function Navbar() {
         <button className="nav-btn nav-close-btn" onClick={showNavbar}>
           <FaTimes />
         </button>
+        <a href="mailto:harikowshik.molugu@gmail.com">
+          <b style={{color:"yellow"}}>Contact me</b>
+        </a>
         <a href="https://github.com/HarikowshikMolugu">
           <img className="social-icon" src="/images/github.png" />
         </a>
