@@ -54,7 +54,7 @@ into opportunities. My dedication to continuous learning drives me to stay at th
       </div>
         </div>
         <div className="animate__animated animate__bounceIn fs2">
-        <img src="https://r7q6w9z6.rocketcdn.me/career/wp-content/uploads/2020/03/full-stack-development.gif" alt="gif"></img>
+        <img src="https://theninehertz.com/wp-content/uploads/2020/06/full-stack-development.gif" alt="gif"></img>
       </div>
       </div>
       
